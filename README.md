@@ -1,40 +1,32 @@
-# Frontend Mentor - FAQ accordion solution
+## Frontend Mentor - 3-column preview card component solution
 
-This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz).
-Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ### The challenge
 
-- No access to design files, attempt pixel-perfect :expressionless:
+- No access to design files, attempt pixel-perfect
+- Turn the original design into something better
 
 Users should be able to:
 
-- Hide/Show the answer to a question when the question is clicked :yum:
-- Navigate the questions and hide/show answers using keyboard navigation alone :yum:
-- View the optimal layout for the interface depending on their device's screen size :yum:
-- See hover and focus states for all interactive elements on the page :yum:
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
 ### Solution
 
 - Built with: `HTML` `CSS`
 - Mobile-first workflow
 
-:link: [`Solution Link`](https://www.frontendmentor.io/solutions/only-html-and-css-dcEFye2_2i) :link: [`Live Site Link`](https://haquanq.github.io/fm-faq-accordion/)
-
 ![](./.docs/design/desktop-design.jpg)
 
-## Working in `fm-faq-accordion` repository
-
-### Packages being used
-
-- [`browser-sync`](https://github.com/BrowserSync/browser-sync)
+## Working in `fm-3-column-preview-card` repository
 
 ### Clone this project to your machine
 
 Make sure you have Git installed in your system, open new terminal, run the following command:
 
 ```
-git clone https://github.com/haquanq/fm-faq-accordion.git
+git clone https://github.com/haquanq/fm-3-column-preview-card.git
 ```
 
 Then, run `npm install` to install all dependencies.
