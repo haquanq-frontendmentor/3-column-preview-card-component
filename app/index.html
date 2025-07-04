@@ -5,23 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="./main.css" />
-
     <title>Frontend Mentor | 3-column preview card component</title>
   </head>
   <body>
-    <main class="main__container">
+    <main>
       <h1 class="sr-only">3-column-preview-card-component</h1>
       <ul class="preview__wrapper">
         <li class="preview__item">
-          <img class="preview__image" src="./assets/images/icon-sedans.svg" alt="Sudan car icon" />
-          <div class="preview__text-wrapper">
+          <img
+            class="preview__icon"
+            src="./assets/images/icon-sedans.svg"
+            alt="sudan-car-icon"
+            aria-hidden="true"
+          />
+          <div class="preview__content">
             <h2 class="preview__title">Sedans</h2>
             <p class="preview__description">
               Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in
@@ -47,8 +45,13 @@
           </a>
         </li>
         <li class="preview__item">
-          <img class="preview__image" src="./assets/images/icon-suvs.svg" alt="SUV car icon" />
-          <div class="preview__text-wrapper">
+          <img
+            class="preview__icon"
+            src="./assets/images/icon-suvs.svg"
+            alt="suv-car-icon"
+            aria-hidden="true"
+          />
+          <div class="preview__content">
             <h2 class="preview__title">SUVs</h2>
             <p class="preview__description">
               Take an SUV for its spacious interior, power, and versatility. Perfect for your next
@@ -74,8 +77,13 @@
           </a>
         </li>
         <li class="preview__item">
-          <img class="preview__image" src="./assets/images/icon-luxury.svg" alt="SUV car icon" />
-          <div class="preview__text-wrapper">
+          <img
+            class="preview__icon"
+            src="./assets/images/icon-luxury.svg"
+            alt="luxury-car-icon"
+            aria-hidden="true"
+          />
+          <div class="preview__content">
             <h2 class="preview__title">Luxury</h2>
             <p class="preview__description">
               Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort

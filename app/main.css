@@ -1,3 +1,30 @@
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./assets/fonts/lexend-deca-v24-latin-regular.woff2") format("woff2"),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+            url("./assets/fonts/lexend-deca-v24-latin-regular.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Big Shoulders";
+    font-style: normal;
+    font-weight: 700;
+    src: url("./assets/fonts/big-shoulders-v3-latin-700.woff2") format("woff2"),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+            url("./assets/fonts/big-shoulders-v3-latin-700.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Big Shoulders";
+    font-style: normal;
+    font-weight: 500;
+    src: url("./assets/fonts/big-shoulders-v3-latin-500.woff2") format("woff2"),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+            url("./assets/fonts/big-shoulders-v3-latin-500.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
 :root {
     --clr-orange-500: hsl(31, 77%, 52%);
     --clr-orange-700: hsl(31, 77%, 30%);
@@ -10,8 +37,8 @@
     --clr-gray-300: hsla(0, 0%, 100%, 0.75);
 
     --font-main: "Lexend Deca", sans-serif;
-    --font-accent: "Big Shoulders Display", sans-serif;
-    --font-normal: 400;
+    --font-accent: "Big Shoulders", sans-serif;
+    --font-medium: 400;
     --font-bold: 700;
 
     --text-base: 0.9375rem;
@@ -65,13 +92,14 @@ h6 {
     opacity: 0;
 }
 
-.main__container {
+main {
     padding-top: clamp(5.5rem, 10vw + 3rem, 10.6875rem);
     padding-bottom: clamp(5.5rem, 10vw + 3rem, 8.0625rem);
     background-color: var(--clr-gray-100);
     min-height: 100vh;
     font-family: var(--font-main);
     font-size: var(--text-base);
+    font-weight: var(--font-medium);
 }
 .preview__wrapper {
     width: calc(100vw - 3rem);
@@ -101,14 +129,14 @@ h6 {
     background-color: var(--clr-cyan-700);
     box-shadow: var(--item-box-shadow-value) var(--clr-cyan-700);
 }
-.preview__image {
+.preview__icon {
     margin-bottom: 2.125rem;
 }
-.preview__text-wrapper {
+.preview__content {
     position: relative;
     margin-bottom: 5rem;
 }
-.preview__text-wrapper::before {
+.preview__content::before {
     z-index: 1;
     content: "";
     position: absolute;
@@ -126,8 +154,9 @@ h6 {
     font-family: var(--font-accent);
     font-size: var(--text-heading-2);
     line-height: var(--leading-heading-2);
-    margin-bottom: 1.5rem;
     color: var(--clr-gray-100);
+    font-weight: var(--font-medium);
+    margin-bottom: 1.5rem;
     text-transform: uppercase;
 }
 .preview__description {
