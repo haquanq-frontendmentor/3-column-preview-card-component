@@ -6,7 +6,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 - [Project overview](#rocket-project-overview)
 - [Development workflow](#boat-development-workflow)
-- [Working in this repository](#astronaut-working-in-fm-3-column-preview-card-component-repository)
+- [Working in this repository](#astronaut-working-in-fm-3-column-preview-card-repository)
 - [License](#page_with_curl-license)
 
 ## :rocket: Project overview
@@ -38,7 +38,7 @@ Developed with mobile-first workflow.
 | `CSS`         | Vanilla CSS                        |
 | `BrowserSync` | Development server, live reloading |
 
-## :astronaut: Working in `fm-3-column-preview-card-component` repository
+## :astronaut: Working in `fm-3-column-preview-card` repository
 
 ### Presequisites
 
