@@ -1,40 +1,37 @@
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
     font-family: "Lexend Deca";
     font-style: normal;
     font-weight: 400;
     src: url("./assets/fonts/lexend-deca-v24-latin-regular.woff2") format("woff2"),
-        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-            url("./assets/fonts/lexend-deca-v24-latin-regular.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+        url("./assets/fonts/lexend-deca-v24-latin-regular.ttf") format("truetype");
 }
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
     font-family: "Big Shoulders";
     font-style: normal;
     font-weight: 700;
     src: url("./assets/fonts/big-shoulders-v3-latin-700.woff2") format("woff2"),
-        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-            url("./assets/fonts/big-shoulders-v3-latin-700.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+        url("./assets/fonts/big-shoulders-v3-latin-700.ttf") format("truetype");
 }
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
     font-family: "Big Shoulders";
     font-style: normal;
     font-weight: 500;
     src: url("./assets/fonts/big-shoulders-v3-latin-500.woff2") format("woff2"),
-        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-            url("./assets/fonts/big-shoulders-v3-latin-500.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+        url("./assets/fonts/big-shoulders-v3-latin-500.ttf") format("truetype");
 }
 :root {
-    --clr-orange-500: hsl(31, 77%, 52%);
-    --clr-orange-700: hsl(31, 77%, 30%);
-    --clr-cyan-500: hsl(184, 100%, 22%);
-    --clr-cyan-700: hsl(179, 100%, 13%);
+    --color-orange-500: hsl(31, 77%, 52%);
+    --color-orange-700: hsl(31, 77%, 30%);
+    --color-cyan-500: hsl(184, 100%, 22%);
+    --color-cyan-700: hsl(179, 100%, 13%);
 
-    --clr-black: hsl(179, 100%, 0%);
-    --clr-white: hsl(0, 0%, 100%);
-    --clr-gray-100: hsl(0, 0%, 95%);
-    --clr-gray-300: hsla(0, 0%, 100%, 0.75);
+    --color-black: hsl(179, 100%, 0%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-gray-100: hsl(0, 0%, 95%);
+    --color-gray-300: hsla(0, 0%, 100%, 0.75);
 
     --font-main: "Lexend Deca", sans-serif;
     --font-accent: "Big Shoulders", sans-serif;
@@ -95,7 +92,7 @@ h6 {
 main {
     padding-top: clamp(5.5rem, 10vw + 3rem, 10.6875rem);
     padding-bottom: clamp(5.5rem, 10vw + 3rem, 8.0625rem);
-    background-color: var(--clr-gray-100);
+    background-color: var(--color-gray-100);
     min-height: 100vh;
     font-family: var(--font-main);
     font-size: var(--text-base);
@@ -118,16 +115,16 @@ main {
     margin-bottom: 2rem;
 }
 .preview__item:nth-child(1) {
-    background-color: var(--clr-orange-500);
-    box-shadow: var(--item-box-shadow-value) var(--clr-orange-500);
+    background-color: var(--color-orange-500);
+    box-shadow: var(--item-box-shadow-value) var(--color-orange-500);
 }
 .preview__item:nth-child(2) {
-    background-color: var(--clr-cyan-500);
-    box-shadow: var(--item-box-shadow-value) var(--clr-cyan-500);
+    background-color: var(--color-cyan-500);
+    box-shadow: var(--item-box-shadow-value) var(--color-cyan-500);
 }
 .preview__item:nth-child(3) {
-    background-color: var(--clr-cyan-700);
-    box-shadow: var(--item-box-shadow-value) var(--clr-cyan-700);
+    background-color: var(--color-cyan-700);
+    box-shadow: var(--item-box-shadow-value) var(--color-cyan-700);
 }
 .preview__icon {
     margin-bottom: 2.125rem;
@@ -144,7 +141,7 @@ main {
     left: -1.5rem;
     right: -1.5rem;
     bottom: -2.375rem;
-    background-color: var(--clr-black);
+    background-color: var(--color-black);
     border-radius: var(--rounded-sm);
     opacity: 0.25;
 }
@@ -154,7 +151,7 @@ main {
     font-family: var(--font-accent);
     font-size: var(--text-heading-2);
     line-height: var(--leading-heading-2);
-    color: var(--clr-gray-100);
+    color: var(--color-gray-100);
     font-weight: var(--font-medium);
     margin-bottom: 1.5rem;
     text-transform: uppercase;
@@ -164,7 +161,7 @@ main {
     position: relative;
     line-height: var(--leading-paragraph);
     letter-spacing: var(--tracking-paragraph);
-    color: var(--clr-gray-300);
+    color: var(--color-gray-300);
     max-width: 35ch;
 }
 .preview__link {
@@ -176,8 +173,8 @@ main {
     margin-left: -1.5rem;
     margin-right: -1.5rem;
     border-radius: var(--rounded-full);
-    border: 2px solid var(--clr-gray-100);
-    background-color: var(--clr-gray-100);
+    border: 2px solid var(--color-gray-100);
+    background-color: var(--color-gray-100);
     padding: 0.875rem 1.875rem 0.9375rem 1.8125rem;
     transition-property: background-color, color, padding;
     transition-duration: 300ms;
@@ -189,26 +186,26 @@ main {
     transform: translateY(-50%);
     right: -2rem;
     transition: right 300ms ease;
-    fill: var(--clr-gray-100);
+    fill: var(--color-gray-100);
 }
 .preview__link:focus-visible {
-    outline: 2px dashed var(--clr-gray-100);
+    outline: 2px dashed var(--color-gray-100);
     outline-offset: 4px;
 }
 .preview__item:nth-child(1) .preview__link {
-    color: var(--clr-orange-700);
+    color: var(--color-orange-700);
 }
 .preview__item:nth-child(2) .preview__link {
-    color: var(--clr-cyan-500);
+    color: var(--color-cyan-500);
 }
 .preview__item:nth-child(3) .preview__link {
-    color: var(--clr-cyan-700);
+    color: var(--color-cyan-700);
 }
 
 @media (hover: hover) {
     .preview__link:hover {
         background-color: transparent;
-        color: var(--clr-gray-100) !important;
+        color: var(--color-gray-100) !important;
         padding-right: 3.25rem;
     }
     .preview__link:hover .preview__link--icon {
