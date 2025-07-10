@@ -6,7 +6,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 - [Project overview](#rocket-project-overview)
 - [Development workflow](#boat-development-workflow)
-- [Working in this repository](#astronaut-working-in-fm-3-column-preview-card-repository)
+- [Working in this repository](#astronaut-working-in-this-repository)
 - [License](#page_with_curl-license)
 
 ## :rocket: Project overview
@@ -18,7 +18,10 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Implemented features
 
-- Refactored the design, added button hover effect with arrow
+Accessibility
+
+- [x] Responsive across different devices
+- [x] Refactored the design, added special hover effect for links
 
 ### Screenshots
 
@@ -38,7 +41,7 @@ Developed with mobile-first workflow.
 | `CSS`         | Vanilla CSS                        |
 | `BrowserSync` | Development server, live reloading |
 
-## :astronaut: Working in `fm-3-column-preview-card` repository
+## :astronaut: Working in this repository
 
 ### Presequisites
 
