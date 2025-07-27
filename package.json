@@ -1,5 +1,5 @@
 {
-  "name": "fm-3-column-preview-card",
+  "name": "3-column-preview-card-component",
   "description": "Solution for frontendmentor.io challenge: 3-column-preview-card-component",
   "devDependencies": {
     "browser-sync": "^3.0.2"
